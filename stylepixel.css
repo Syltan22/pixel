@@ -1,0 +1,75 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    background-image: url(https://the-flow.ru/uploads/images/resize/830x0/adaptiveResize/11/49/82/06/35/fef811140cd7.jpg);
+}
+
+.palette {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.color {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #ccc;
+}
+
+.field {
+    display: grid;
+    grid-template-columns: repeat(8, 40px);
+    grid-template-rows: repeat(8, 40px);
+    gap: 2px;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+#clear-btn {
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6b6b;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.color:hover {
+    transform: scale(1.1);
+}
+
+#clear-btn:hover {
+    background-color: #e05555;
+}
+
+#eraser-btn {
+    width: 32px;
+    height: 32px;
+    font-size: 18px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    cursor: pointer;
+    background-color: white;
+    color: #555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
