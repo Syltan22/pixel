@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Oi&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url(https://avatars.mds.yandex.net/i?id=f148ae32c5099243b9d2c4d1f3996fcf_l-3606203-images-thumbs&n=13);
+}
+
+.imgr{
+  left: 15px;
+  top: 10px;
+  position: absolute;
+  margin-bottom: 20px;
+}
+
+a {
+  font-family: "Oi", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.ej {
+    padding-left: 120px;
+    margin: 35px ;
+    position: absolute;
+    font-size: 35px;
+}
+
+.avt {
+    padding-left: 800px;
+    margin: 15px ;
+    position: absolute;
+    font-size: 20px;
+}
+.ric {
+    padding-left: 400px;
+    margin: 25px ;
+    position: absolute;
+    font-size: 35px;
+}
+
+.pig {
+  display : none;
+}
+
+.hover-effect {
+  position: relative;
+}
+
+.hover-effect ej {
+  cursor: pointer; 
+}
+
+
+.hover-effect:hover img {
+  display: block;
+  position: absolute;
+
+}
