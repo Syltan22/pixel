@@ -61,5 +61,5 @@ field.addEventListener('mousedown', function() {
 })
 
 field.addEventListener('mouseup', function() {
-    field.addEventListener('mousemove', paint)
+    field.removeEventListener('mousemove', paint)
 })
